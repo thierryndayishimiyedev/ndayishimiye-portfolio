@@ -10,6 +10,8 @@ A responsive personal portfolio for **Thierry NDAYISHIMIYE**, an Information Tec
 
 - Personal introduction and professional positioning
 - Selected projects with repository links and expandable project notes
+- Interactive employee directory and pharmacy stock prototypes using sample data
+- Updated 2026 CV PDF with current education, skills, and selected projects
 - Technical skills grouped by area
 - Education and learning journey
 - Artist identity and creative links
@@ -28,6 +30,13 @@ A responsive personal portfolio for **Thierry NDAYISHIMIYE**, an Information Tec
 
 Open `index.html` in a browser, or use a local static server such as VS Code Live Server.
 
+## Interactive prototypes
+
+- `demos/employee-management.html` — searchable sample employee directory with add-record interaction and browser-local persistence.
+- `demos/pharmacy-stock.html` — searchable sample inventory with low-stock filtering and add-item interaction.
+
+These are front-end portfolio demos with fictional sample data, not production systems or live backends.
+
 ## Project structure
 
 ```
@@ -36,7 +45,7 @@ style.css
 script.js
 images/
 videos/
-Thierry_NDAYISHIMIYE_CV_Updated_With_EBM.pdf
+Thierry_NDAYISHIMIYE_CV_Updated_With_EBM.pdf (updated 2026)
 ```
 
 ## Keep it accurate
