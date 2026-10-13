@@ -20,6 +20,14 @@ if (menuToggle && nav) {
     });
   });
 
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      nav.classList.remove('is-open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      menuToggle.setAttribute('aria-label', 'Open navigation');
+    }
+  });
+
   document.addEventListener('click', (event) => {
     if (!nav.contains(event.target) && !menuToggle.contains(event.target)) {
       nav.classList.remove('is-open');
