@@ -1,32 +1,36 @@
-# 🌐 Personal Portfolio Website
+# Thierry NDAYISHIMIYE — Portfolio
 
-This is my personal portfolio created to showcase my skills, projects, and achievements as a developer. It features a responsive design, image and video gallery, project showcase, and contact section to present my work professionally.
+A personal portfolio for **Thierry NDAYISHIMIYE**, an Information Technology student, software developer, and independent artist known as **lost_ooh**, based in Rwanda.
 
-## ✨ Features
-- Responsive and modern UI
-- Projects showcase section
-- Image and video gallery
-- Contact page for communication
+## Design direction
+- Editorial, minimalist layout with a deep forest palette and acid-lime accents
+- Responsive navigation and layouts for mobile, tablet, and desktop
+- Selected software projects, technical skills, education, creative identity, and contact links
+- Lightweight HTML, CSS, and vanilla JavaScript
+- Reduced-motion support, semantic landmarks, accessible navigation labels, and SEO/social metadata
 
-## 🛠️ Built With
+## Built with
 - HTML5
 - CSS3
 - JavaScript
 
-## 📂 Project Structure
+## Run locally
+Open `index.html` in a browser, or use a local static server such as VS Code Live Server.
 
-portfolio/
-├─ images/
-├─ videos/
-├─ index.html
-├─ style.css
-├─ script.js
-└─ Thierry_NDAYISHIMIYE_CV_Updated_With_EBM.pdf
+## Project structure
+```
+index.html
+style.css
+script.js
+images/
+videos/
+Thierry_NDAYISHIMIYE_CV_Updated_With_EBM.pdf
+```
 
-## 🎯 Purpose
-To build a strong online professional presence.
+## Contact
+- Email: thierryndayishimye100@gmail.com
+- GitHub: https://github.com/thierryndayishimiyedev
+- LinkedIn: https://www.linkedin.com/in/thierry-ndayishimiye-b592a737a/
+- Creative work: lost_ooh
 
----
-
-Feel free to contact me for collaborations or opportunities!  
-WhatsApp & Call: 0795589736
+Portfolio details and project descriptions will continue to evolve as new work is completed.
