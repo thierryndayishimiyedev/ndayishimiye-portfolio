@@ -1,255 +1,146 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Thierry | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <script defer src="script.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10130f">
+  <meta name="description" content="Thierry NDAYISHIMIYE — Information Technology student, software developer, and recording artist from Rwanda. Explore projects, skills, and creative work.">
+  <meta property="og:title" content="Thierry NDAYISHIMIYE — Developer & Artist">
+  <meta property="og:description" content="I build useful digital experiences and create music. Explore my projects, skills, and journey.">
+  <meta property="og:type" content="website">
+  <title>Thierry NDAYISHIMIYE — Developer & Artist</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Pacifico&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
-
 <body>
-  <header>
-    <div class="logo">Thierry</div>
-    <nav class="navbar">
-      <ul id="nav-list">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-   <button class="hire-btn"
-onclick="window.location.href='https://mail.google.com/mail/?view=cm&to=thierryndayishimye100@gmail.com&su=Hiring%20Inquiry&body=Hello%20Thierry,'">
-  Hire Me
-</button>
-
-
-    <button class="menu-toggle" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
-  </header>
-
-  <!-- HERO -->
-  <section id="home" class="hero">
-    <div class="hero-text">
-      <h2>Hi, I'm <span class="name">Thierry</span></h2>
-      <h1>Web Designer & Developer</h1>
-      <p>A creative and passionate developer from Rwanda. I design and build
-         full-stack web apps with modern, clean, and user-friendly interfaces.</p>
-
-      <div class="social">
-        <a href="#"><i class="fab fa-behance"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-        <a href="#"><i class="fab fa-github"></i></a>
-      </div>
-
-      <div class="buttons">
-       <button class="hire-btn"
-onclick="window.location.href='https://mail.google.com/mail/?view=cm&to=thierryndayishimye100@gmail.com&su=Hiring%20Inquiry&body=Hello%20Thierry,'">
-  Hire Me
-</button>
-
-        <button class="resume-btn" onclick="window.open('Thierry_NDAYISHIMIYE_CV_Updated_With_EBM.pdf', '_blank')">Resume/CV</button>
-
-      </div>
-    </div>
-
-    <div class="hero-img">
-      <div class="circle">
-        <img src="images/kamara1.jpg" alt="Thierry portrait">
-      </div>
-    </div>
-  </section>
-
-  <!-- ABOUT -->
-  <section id="about" class="section about">
-    <h2>About Me</h2>
-    <div class="about-grid">
-      <div>
-        <p>I'm Thierry, a full-stack web designer and developer. I specialize in creating
-           responsive, user-friendly digital experiences using modern web technologies.
-           I love combining creativity with code to deliver beautiful and efficient results.</p>
-        <ul class="info-list">
-          <li><strong>Email:</strong> thierryndayishimiye44@gmail.com</li>
-          <li><strong>Location:</strong> Nyarugenge, Muhima, Tetero</li>
-          <li><strong>Languages:</strong> Kinyarwanda & English</li>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Thierry home"><span class="brand-mark">T<span>.</span></span><span class="brand-name">THIERRY N.</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Open navigation"><span></span><span></span></button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul id="nav-list">
+          <li><a href="#about">About</a></li><li><a href="#work">Selected work</a></li><li><a href="#skills">Skills</a></li><li><a href="#journey">Journey</a></li>
         </ul>
-      </div>
-      <div class="about-cta">
-        <a href="#contact" class="btn">Get in Touch</a>
-      </div>
-    </div>
-  </section>
+      </nav>
+      <a class="header-cta" href="#contact">Let's talk <span>↗</span></a>
+    </header>
 
-  <!-- SKILLS -->
-  <!-- SKILLS -->
-<section id="skills" class="section skills">
-  <h2>Technical Skills</h2>
+    <main>
+      <section class="hero section-wrap" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> BASED IN RWANDA <span class="eyebrow-divider">/</span> OPEN TO OPPORTUNITIES</p>
+          <h1>Curious mind.<br><span class="headline-accent">Builder's hands.</span></h1>
+          <p class="hero-lede">I'm <strong>Thierry NDAYISHIMIYE</strong> — an Information Technology student, software developer, and artist known as <strong>lost_ooh</strong>. I bring ideas to life through code, design, and music.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore my work <span>↘</span></a>
+            <a class="button button-quiet" href="#contact">Get in touch <span>↗</span></a>
+          </div>
+          <div class="hero-footnote"><span class="mono">01 / 03</span><span>LEARNING EVERY DAY. BUILDING WITH PURPOSE.</span></div>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-grid" aria-hidden="true"></div>
+          <div class="portrait-frame">
+            <img src="images/kamara1.jpg" alt="Portrait of Thierry NDAYISHIMIYE" onerror="this.style.display='none';this.parentElement.classList.add('portrait-fallback')">
+            <div class="portrait-fallback-text" aria-hidden="true">T<span>.</span></div>
+            <div class="portrait-tag"><span class="tag-line"></span><span>THIERRY NDAYISHIMIYE<br><small>DEVELOPER · ARTIST</small></span></div>
+          </div>
+          <div class="orbit-note note-top"><span class="note-icon">✳</span> CODE WITH CURIOSITY</div>
+          <div class="orbit-note note-bottom"><span class="note-icon">♫</span> CREATE WITH FEELING</div>
+          <div class="visual-index mono">RW / 2026</div>
+        </div>
+      </section>
 
-  <div class="skills-grid">
-    <!-- Front-End Development -->
-    <div class="skill">
-      <div class="skill-head"><span>HTML / CSS</span><span>95%</span></div>
-      <div class="skill-bar"><div style="width:95%"></div></div>
-    </div>
-    <div class="skill">
-      <div class="skill-head"><span>Tailwind CSS</span><span>90%</span></div>
-      <div class="skill-bar"><div style="width:90%"></div></div>
-    </div>
-    <div class="skill">
-      <div class="skill-head"><span>React.js</span><span>98%</span></div>
-      <div class="skill-bar"><div style="width:98%"></div></div>
-    </div>
+      <div class="ticker" aria-label="Areas of interest"><div class="ticker-track"><span>SOFTWARE DEVELOPMENT <b>✳</b> INFORMATION TECHNOLOGY <b>✳</b> CREATIVE EXPRESSION <b>✳</b> BUILDING FOR PEOPLE <b>✳</b> SOFTWARE DEVELOPMENT <b>✳</b> INFORMATION TECHNOLOGY <b>✳</b> CREATIVE EXPRESSION <b>✳</b> BUILDING FOR PEOPLE <b>✳</b></span></div></div>
 
-    <!-- Back-End Development -->
-    <div class="skill">
-      <div class="skill-head"><span>PHP</span><span>98%</span></div>
-      <div class="skill-bar"><div style="width:98%"></div></div>
-    </div>
-    <div class="skill">
-      <div class="skill-head"><span>Node.js</span><span>98%</span></div>
-      <div class="skill-bar"><div style="width:98%"></div></div>
-    </div>
-    <div class="skill">
-      <div class="skill-head"><span>Databases (MySQL / MongoDB)</span><span>90%</span></div>
-      <div class="skill-bar"><div style="width:90%"></div></div>
-    </div>
+      <section class="section-wrap about-section" id="about">
+        <div class="section-label"><span class="mono">01</span><span>THE PERSON BEHIND THE PIXELS</span></div>
+        <div class="about-layout">
+          <h2>Technology is my craft.<br><span>Creativity is my edge.</span></h2>
+          <div class="about-copy">
+            <p>I'm a Rwandan developer who enjoys turning real-world problems into clear, useful digital products. My journey began with software development and continues through my Information Technology studies at Rwanda Polytechnic, Karongi College.</p>
+            <p>Outside the code editor, I make music as <strong>lost_ooh</strong>. Software and music may look different, but both ask me to experiment, listen carefully, and keep improving.</p>
+            <a class="text-link" href="#journey">More about my journey <span>↗</span></a>
+          </div>
+        </div>
+        <div class="facts-row">
+          <div class="fact"><span class="fact-number">01</span><span class="fact-title">Software development</span><span class="fact-detail">From idea to working product</span></div>
+          <div class="fact"><span class="fact-number">02</span><span class="fact-title">Information technology</span><span class="fact-detail">Systems, networks & foundations</span></div>
+          <div class="fact"><span class="fact-number">03</span><span class="fact-title">Music & creativity</span><span class="fact-detail">Artist project: lost_ooh</span></div>
+        </div>
+      </section>
 
-    <!-- Mobile Development -->
-    <div class="skill">
-      <div class="skill-head"><span>Flutter / Dart</span><span>85%</span></div>
-      <div class="skill-bar"><div style="width:85%"></div></div>
-    </div>
+      <section class="work-section" id="work">
+        <div class="section-wrap">
+          <div class="section-label"><span class="mono">02</span><span>THINGS I'VE BEEN BUILDING</span></div>
+          <div class="section-heading-row"><div><h2>Selected <span>work.</span></h2><p class="section-intro">A growing collection of projects, experiments, and practical learning.</p></div><a class="text-link" href="https://github.com/thierryndayishimiyedev" target="_blank" rel="noreferrer">All repositories <span>↗</span></a></div>
+          <div class="projects-grid">
+            <article class="project-card project-featured">
+              <div class="project-art art-portfolio"><span class="art-kicker">PERSONAL / WEB</span><div class="mini-browser"><div class="browser-dots"><i></i><i></i><i></i></div><div class="mini-layout"><div class="mini-lines"><b></b><b></b><b></b><i></i></div><div class="mini-circle">T.</div></div></div><span class="art-number">01</span></div>
+              <div class="project-meta"><span>HTML · CSS · JavaScript</span><span>01 / 04</span></div>
+              <h3>Personal Portfolio</h3><p>A home for my developer journey, selected projects, and creative identity — designed to evolve as I grow.</p>
+              <a class="project-link" href="https://github.com/thierryndayishimiyedev/ndayishimiye-portfolio" target="_blank" rel="noreferrer">View source <span>↗</span></a>
+            </article>
+            <article class="project-card">
+              <div class="project-art art-employee"><span class="art-kicker">OPERATIONS / WEB</span><div class="dashboard-art"><div class="dash-sidebar"></div><div class="dash-main"><i></i><i></i><i></i><div class="dash-cards"><b></b><b></b><b></b></div><div class="dash-chart"></div></div></div><span class="art-number">02</span></div>
+              <div class="project-meta"><span>SOFTWARE PROJECT</span><span>02 / 04</span></div>
+              <h3>Employee Management</h3><p>A software project focused on organizing employee information and everyday management workflows.</p>
+              <a class="project-link" href="https://github.com/thierryndayishimiyedev/employee-management-system" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+            </article>
+            <article class="project-card">
+              <div class="project-art art-pharmacy"><span class="art-kicker">SYSTEMS / C++</span><div class="pharmacy-art"><span>Rx</span><div><i></i><i></i><i></i></div></div><span class="art-number">03</span></div>
+              <div class="project-meta"><span>C++</span><span>03 / 04</span></div>
+              <h3>Pharmacy Management</h3><p>A C++ project exploring how software can help structure pharmacy records and routine operations.</p>
+              <a class="project-link" href="https://github.com/thierryndayishimiyedev/pharmacy2-System-Cpp" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+            </article>
+            <article class="project-card">
+              <div class="project-art art-fashion"><span class="art-kicker">BUSINESS / DIGITAL</span><div class="fashion-art"><span>K.</span><div><i></i><i></i><i></i></div><small>FASHION SYSTEM</small></div><span class="art-number">04</span></div>
+              <div class="project-meta"><span>FULL-STACK CONCEPT</span><span>04 / 04</span></div>
+              <h3>Kiki Fashion System</h3><p>A fashion business management concept for organizing products, orders, and customer workflows with digital tools.</p>
+              <a class="project-link" href="https://github.com/thierryndayishimiyedev" target="_blank" rel="noreferrer">Explore my GitHub <span>↗</span></a>
+            </article>
+          </div>
+          <p class="project-note"><span>↳</span> Projects reflect different stages of my learning and building journey. I'm continuously improving them.</p>
+        </div>
+      </section>
 
-    <!-- Data Science & AI -->
-    <div class="skill">
-      <div class="skill-head"><span>Python & ML</span><span>80%</span></div>
-      <div class="skill-bar"><div style="width:80%"></div></div>
-    </div>
+      <section class="section-wrap skills-section" id="skills">
+        <div class="section-label"><span class="mono">03</span><span>TOOLS IN MY WORKSHOP</span></div>
+        <div class="section-heading-row"><div><h2>Learning by <span>building.</span></h2><p class="section-intro">The technologies I use, practise, and continue to develop.</p></div></div>
+        <div class="skills-layout">
+          <div class="skill-group"><div class="skill-group-top"><span class="skill-symbol">⌘</span><span class="mono">01 / FRONT END</span></div><h3>Interfaces</h3><div class="skill-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Tailwind CSS</span></div></div>
+          <div class="skill-group"><div class="skill-group-top"><span class="skill-symbol">{ }</span><span class="mono">02 / BACK END</span></div><h3>Application logic</h3><div class="skill-tags"><span>Node.js</span><span>Express</span><span>PHP</span><span>Python</span><span>Flask</span></div></div>
+          <div class="skill-group"><div class="skill-group-top"><span class="skill-symbol">▤</span><span class="mono">03 / DATA</span></div><h3>Data & storage</h3><div class="skill-tags"><span>MySQL</span><span>MongoDB</span><span>PostgreSQL — learning</span></div></div>
+          <div class="skill-group"><div class="skill-group-top"><span class="skill-symbol">⌁</span><span class="mono">04 / IT & WORKFLOW</span></div><h3>Systems thinking</h3><div class="skill-tags"><span>Git & GitHub</span><span>Networking</span><span>Linux basics</span><span>UI/UX</span><span>Responsive design</span></div></div>
+        </div>
+        <p class="skills-footnote">I value strong fundamentals, honest progress, and learning the right tool for the problem.</p>
+      </section>
 
-    <!-- Design & UX -->
-    <div class="skill">
-      <div class="skill-head"><span>UI/UX (Figma / Adobe XD)</span><span>70%</span></div>
-      <div class="skill-bar"><div style="width:70%"></div></div>
-    </div>
+      <section class="journey-section" id="journey">
+        <div class="section-wrap">
+          <div class="section-label"><span class="mono">04</span><span>WHERE I'VE BEEN / WHERE I'M GOING</span></div>
+          <div class="journey-layout"><div><h2>Still growing.<br><span>Always creating.</span></h2><p class="section-intro">My path is a work in progress — built on education, practice, and curiosity.</p></div>
+            <div class="timeline">
+              <article class="timeline-item"><span class="timeline-dot"></span><span class="mono timeline-date">2026 — NOW</span><div><h3>Information Technology</h3><p>Studying at Rwanda Polytechnic, Karongi College, while developing practical IT and software skills.</p></div></article>
+              <article class="timeline-item"><span class="timeline-dot"></span><span class="mono timeline-date">2025</span><div><h3>Diploma in Software Development</h3><p>Completed software development studies at Kiyumba TSS and continued toward higher education.</p></div></article>
+              <article class="timeline-item"><span class="timeline-dot"></span><span class="mono timeline-date">ALWAYS</span><div><h3>lost_ooh — music & expression</h3><p>Writing and exploring music alongside technology, with a focus on building a distinct creative identity.</p></div></article>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <!-- DevOps & Emerging Tech -->
-    <div class="skill">
-      <div class="skill-head"><span>DevOps & QA</span><span>70%</span></div>
-      <div class="skill-bar"><div style="width:70%"></div></div>
-    </div>
-    <div class="skill">
-      <div class="skill-head"><span>Blockchain</span><span>77%</span></div>
-      <div class="skill-bar"><div style="width:77%"></div></div>
-    </div>
+      <section class="creative-section section-wrap">
+        <div class="creative-card"><div class="creative-symbol">♫</div><div><p class="eyebrow">ANOTHER SIDE OF THE STORY</p><h2>Beyond the screen,<br><span>there's a sound.</span></h2><p>I'm also <strong>lost_ooh</strong> — an independent artist exploring sound, emotion, and storytelling. Creativity doesn't stop when I close the code editor.</p><a class="button button-light" href="https://www.facebook.com/lostoohmusic" target="_blank" rel="noreferrer">Explore my creative side <span>↗</span></a></div><div class="sound-wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+      </section>
+
+      <section class="contact-section section-wrap" id="contact">
+        <div class="section-label"><span class="mono">05</span><span>HAVE A GOOD IDEA?</span></div>
+        <div class="contact-layout"><div><p class="eyebrow">LET'S MAKE SOMETHING MEANINGFUL</p><h2>Good work starts<br>with a <span>conversation.</span></h2></div><div class="contact-copy"><p>Have a project, opportunity, or idea you'd like to discuss? I'm open to connecting, learning, and collaborating.</p><a class="contact-email" href="mailto:thierryndayishimye100@gmail.com">thierryndayishimye100@gmail.com <span>↗</span></a><div class="social-links"><a href="https://github.com/thierryndayishimiyedev" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/thierry-ndayishimiye-b592a737a/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://www.facebook.com/lostoohmusic" target="_blank" rel="noreferrer">Facebook ↗</a><a href="https://www.instagram.com/lost_ooh/" target="_blank" rel="noreferrer">Instagram ↗</a></div></div></div>
+      </section>
+    </main>
+    <footer class="site-footer section-wrap"><a class="brand" href="#home"><span class="brand-mark">T<span>.</span></span><span class="brand-name">THIERRY N.</span></a><p>Designed with intention. Built while learning.</p><span class="mono">© <span id="year"></span> THIERRY NDAYISHIMIYE</span><a class="back-top" href="#home" aria-label="Back to top">↑</a></footer>
   </div>
-</section>
-
-
-  <!-- PROJECTS -->
- <!-- PROJECTS -->
-<section id="projects" class="section projects">
-  <h2>Projects</h2>
-  <div class="projects-grid">
-
-    <article class="project-card">
-      <div class="project-thumb"></div>
-      <h3>Kiki Fashion System</h3>
-      <p>Developed a full fashion management system using Node.js, React.js, Tailwind CSS, and MySQL for handling product listings, orders, and client accounts.</p>
-    </article>
-
-    <article class="project-card">
-      <div class="project-thumb"></div>
-      <h3>Cargo Products Management System</h3>
-      <p>Built a PHP + MySQL application to efficiently manage cargo tracking, stock control, and product administration for logistic businesses.</p>
-    </article>
-
-    <article class="project-card">
-      <div class="project-thumb"></div>
-      <h3>AI-Powered Support System</h3>
-      <p>Created a Python + Flask web application integrated with OpenAI API to assist users with intelligent chat support, real-time responses, and automated information processing.</p>
-    </article>
-
-    <article class="project-card">
-      <div class="project-thumb"></div>
-      <h3>Downtown Market Sells</h3>
-      <p>Developing an e-commerce platform to support local market vendors with digital product listings, sales tracking, and payment integration — launching soon.</p>
-    </article>
-
-    <article class="project-card">
-      <div class="project-thumb"></div>
-      <h3>Muhima Sector Website</h3>
-      <p>Created a community-focused website to improve access to local service information, public announcements, and contact channels for residents.</p>
-    </article>
-
-  </div>
-</section>
-
-<!-- EXPERIENCE -->
-<section id="experience" class="section experience">
-  <h2>Experience & Achievements</h2>
-  <ul class="experience-list">
-    <li><strong>Software Development Internship – Saltel Ltd (2024):</strong> Contributed to internal web tools, helped with API integrations, and improved database documentation.</li>
-    <li><strong>Networking Internship – Computer Bytes (2025):</strong> Hands-on experience in LAN/WAN setup, router configuration, network troubleshooting, and IT infrastructure management.</li>
-    <li>Developed backend systems using Node.js, Express, and MySQL following RESTful API best practices.</li>
-    <li>Built AI-powered apps using Python, Flask, and OpenAI API to enhance user support and automation.</li>
-    <li>Implemented responsive and accessible UI using React.js and Tailwind CSS.</li>
-    <li>Configured and managed local servers, Git/GitHub version control, and database backups.</li>
-    <li>Applied software testing and QA principles to ensure performance, reliability, and security.</li>
-    <li>Collaborated in agile development environments improving teamwork and delivery timelines.</li>
-  </ul>
-</section>
-
-
-
-
-<section id="video" class="section video-section">
-  <h2>Watch My Work</h2>
-  <div class="video-container">
-    <video id="portfolioVideo" controls muted playsinline>
-      <source src="videos/kiki.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-</section>
-
-
-  <!-- GALLERY -->
-  <section id="gallery" class="section gallery">
-    <h2>Gallery</h2>
-    <div class="gallery-grid">
-      <img src="images/kamara2.jpg" alt="Gallery 1">
-      <img src="images/kamara3.jpg" alt="Gallery 2">
-      <img src="images/kamara4.jpg" alt="Gallery 3">
-      <img src="images/kamara5.jpg" alt="Gallery 4">
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section class="contact" id="contact">
-  <h2>Contact Me</h2>
-  <p>Let’s connect! You can reach me anytime through these platforms:</p>
-
-  <div class="contact-links">
-    <a href="https://www.facebook.com/lostoohmusic" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
-    <a href="https://www.linkedin.com/in/thierry-ndayishimiye-b592a737a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-    <a href="https://github.com/thierryndayishimiyedev" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    <a href="https://www.instagram.com/lost_ooh?igsh=MXA3eWd3aGF4c3MwNA==" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
-    <a onclick="window.location.href='https://mail.google.com/mail/?view=cm&to=thierryndayishimye100@gmail.com&su=Hiring%20Inquiry&body=Hello%20Thierry,'" ><i class="fas fa-envelope"></i> thierryndayishimye100@gmail.com</a>
-    <a href="tel:+250795579736"><i class="fas fa-phone"></i> +250 795 579 736</a>
-  </div>
-</section>
-
-
-  <footer class="footer">
-    <p>© <span id="year"></span> Thierry — Designed & coded by me.</p>
-  </footer>
 </body>
 </html>
